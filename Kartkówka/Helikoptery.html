@@ -1,0 +1,34 @@
+<html>
+<script type="text/javascript">
+    function Helikopter(typ,rok,pochodzenie,przeznaczenie,uzbrojenie){
+        this.typ=typ;
+        this.rok=rok;
+        this.pochodzenie=pochodzenie;
+        this.przeznaczenie=przeznaczenie;
+        this.uzbrojenie=uzbrojenie;
+    }
+    Mi_28 = new Helikopter("Bojowy",1982,"Związek Radziecki","Anihilacja","Działo 20mm; Rakiety Powietrze-Ziemia");
+    AH_64_Apache = new Helikopter("Bojowy",1976,"Stany Zjednoczone","Prototyp=Zwiad; Produkcja=Anihilacja","Rakiety Powietrze-Ziemia; Rakiety Powietrze-Powietrze");
+    Mi_24_Hind = new Helikopter("Śmigłowiec Multitool",1970,"Związek Radziecki","Według Polskiej armii do wszystkiego","Rakiety Powietrze-Ziemia ppk Ingwe lub Mokopa; Działo GI-2 kal.30mm w ruchomym stanowisku strzeleckim; ");
+document.write("Informacje o Mi-28:"+"<br>"
++"Zaprojektowany jako:"+Mi_28.typ+"<br>"
++"Zaprojektowany w roku:"+Mi_28.rok+"<br>"
++"Zaprojektowany w:"+Mi_28.pochodzenie+"<br>"
++"Przeznaczony do działań typu:"+Mi_28.przeznaczenie+"<br>"
++"Uzbrojony w:"+Mi_28.uzbrojenie+"<br>"
++"<br>"
++"Informacje o AH-64 Apache:"+"<br>"
++"Zaprojektowany jako:"+AH_64_Apache.typ+"<br>"
++"Zaprojektowany w roku:"+AH_64_Apache.rok+"<br>"
++"Zaprojektowany w:"+AH_64_Apache.pochodzenie+"<br>"
++"Przeznaczony do działań typu:"+AH_64_Apache.przeznaczenie+"<br>"
++"Uzbrojony w:"+AH_64_Apache.uzbrojenie+"<br>"
++"<br>"
++"Informacje o Mi-24 Hind"+ "<br>"
++"Zaprojektowany jako:"+Mi_24_Hind.typ+"<br>"
++"Zaprojektowany w roku:"+Mi_24_Hind.rok+"<br>"
++"Zaprojektowany w:"+Mi_24_Hind.pochodzenie+"<br>"
++"Przeznaczony do działań typu:"+Mi_24_Hind.przeznaczenie+"<br>"
++"Uzbrojony w:"+Mi_24_Hind.uzbrojenie+"<br>");
+</script>
+</html>
